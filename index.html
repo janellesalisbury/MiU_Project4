@@ -346,7 +346,7 @@
            </div>
                    <div data-role = "fieldcontain">
                       <label for = "oldpartproblems">Problems:</label>
-                         <textarea></textarea>
+                         <textarea><data-theme = "c"/></textarea>
            </div>
                    <div data-role = "fieldcontain">
                       <label for = "quantity">Parts Quantity:</label>
@@ -355,9 +355,9 @@
                    <div data-role = "fieldcontain">
                       <fieldset data-role = "controlgroup">
                         <legend>Part Choice:</legend>
-                        <input type = "radio" value = "new" name = "part-choice" id = "part-choice-1"/>
+                        <input type = "radio" value = "new" name = "part-choice" id = "part-choice-1" data-theme ="c"/>
                         <label for = "part-choice-1">New</label>
-                        <input type = "radio" value = "used" name = "part-choice" id = "part-choice-2"/>
+                        <input type = "radio" value = "used" name = "part-choice" id = "part-choice-2" data-theme ="c"/>
                         <label for = "part-choice-2">Used</label>
                        
                       </fieldset>
@@ -365,16 +365,16 @@
                    <div data-role = "fieldcontain">
                       <fieldset data-role = "controlgroup">
                         <legend>Part Purchased?</legend>  
-                        <input type = "checkbox" value = "yes" name = "purchasedchoice" id = "purchased-choice-1"class = "required"/>
+                        <input type = "checkbox" value = "yes" name = "purchasedchoice" id = "purchased-choice-1" data-theme ="c" class = "required"/>
                         <label for = "purchased-choice-1">Yes</label>
-                        <input type = "checkbox" value = "no" name = "purchasedchoice" id = "purchased-choice-2"/>
+                        <input type = "checkbox" value = "no" name = "purchasedchoice" id = "purchased-choice-2" data-theme ="c"/>
                         <label for = "purchased-choice-2">No</label>
                         
                       </fieldset>
            </div>
                    <div data-role = "fieldcontain">
                       <label for = "parts-shipping">Shipping:</label>
-                      <select name = "parts-shipping" id = "parts-shipping" class = "required">
+                      <select name = "parts-shipping" id = "parts-shipping" data-theme = "b" class = "required">
                       <option data-placeholder = "true">Please Select One:</option>
                       <optgroup label = "FedEx">
                         <option value = "overnight">Overnight</option>
@@ -391,8 +391,8 @@
                       </select>
                   </div>    
           </div>
-                  <input type = "button" value = "Reset" data theme = "a"/>
-                  <input type = "button" value = "Log Parts" data theme = "b"/>
+                  <input type = "button" value = "Reset" data-theme = "b"/>
+                  <input type = "button" value = "Log Parts" data-theme = "b"/>
                      
                    
           </div>

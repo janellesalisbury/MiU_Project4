@@ -78,4 +78,9 @@ color: #cc0000
 #rberrorslink display:none:
 }
 
+# styles.css {
+# background: url(car2.png) top left no-repeat,
+url(car2.png) bottom left no-repeat,
+url(car2.png) bottom right no-repeat;
+# }
 /* Saved here, completed CSS */
